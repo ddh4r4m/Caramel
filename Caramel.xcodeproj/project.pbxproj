@@ -10,9 +10,10 @@
 		8DF2FBED2A335AAF00ADE2BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FBEC2A335AAF00ADE2BC /* AppDelegate.swift */; };
 		8DF2FBEF2A335AAF00ADE2BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FBEE2A335AAF00ADE2BC /* SceneDelegate.swift */; };
 		8DF2FBF12A335AAF00ADE2BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FBF02A335AAF00ADE2BC /* ViewController.swift */; };
-		8DF2FBF42A335AAF00ADE2BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2FBF22A335AAF00ADE2BC /* Main.storyboard */; };
 		8DF2FBF62A335AB000ADE2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2FBF52A335AB000ADE2BC /* Assets.xcassets */; };
 		8DF2FBF92A335AB000ADE2BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF2FBF72A335AB000ADE2BC /* LaunchScreen.storyboard */; };
+		8DF2FC012A335C9100ADE2BC /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FC002A335C9100ADE2BC /* SwiftUIView.swift */; };
+		8DF2FC032A335CBA00ADE2BC /* BetterUXButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF2FC022A335CBA00ADE2BC /* BetterUXButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		8DF2FBEC2A335AAF00ADE2BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF2FBEE2A335AAF00ADE2BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8DF2FBF02A335AAF00ADE2BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8DF2FBF32A335AAF00ADE2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DF2FBF52A335AB000ADE2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF2FBF82A335AB000ADE2BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DF2FBFA2A335AB000ADE2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF2FC002A335C9100ADE2BC /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		8DF2FC022A335CBA00ADE2BC /* BetterUXButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterUXButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				8DF2FBEC2A335AAF00ADE2BC /* AppDelegate.swift */,
 				8DF2FBEE2A335AAF00ADE2BC /* SceneDelegate.swift */,
 				8DF2FBF02A335AAF00ADE2BC /* ViewController.swift */,
-				8DF2FBF22A335AAF00ADE2BC /* Main.storyboard */,
+				8DF2FC002A335C9100ADE2BC /* SwiftUIView.swift */,
+				8DF2FC022A335CBA00ADE2BC /* BetterUXButton.swift */,
 				8DF2FBF52A335AB000ADE2BC /* Assets.xcassets */,
 				8DF2FBF72A335AB000ADE2BC /* LaunchScreen.storyboard */,
 				8DF2FBFA2A335AB000ADE2BC /* Info.plist */,
@@ -127,7 +130,6 @@
 			files = (
 				8DF2FBF92A335AB000ADE2BC /* LaunchScreen.storyboard in Resources */,
 				8DF2FBF62A335AB000ADE2BC /* Assets.xcassets in Resources */,
-				8DF2FBF42A335AAF00ADE2BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF2FBF12A335AAF00ADE2BC /* ViewController.swift in Sources */,
+				8DF2FC032A335CBA00ADE2BC /* BetterUXButton.swift in Sources */,
 				8DF2FBED2A335AAF00ADE2BC /* AppDelegate.swift in Sources */,
+				8DF2FC012A335C9100ADE2BC /* SwiftUIView.swift in Sources */,
 				8DF2FBEF2A335AAF00ADE2BC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +151,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8DF2FBF22A335AAF00ADE2BC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8DF2FBF32A335AAF00ADE2BC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8DF2FBF72A335AB000ADE2BC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +288,6 @@
 				INFOPLIST_FILE = Caramel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +315,6 @@
 				INFOPLIST_FILE = Caramel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
